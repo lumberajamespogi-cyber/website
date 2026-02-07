@@ -1,0 +1,74 @@
+.container {
+    text-align: center;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+body{
+    background-color: #ffe6e6;
+    margin: 0;
+    padding: 0;
+}
+.button {
+    width: 100px;
+    padding: 10px;
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px auto;
+    display: block;
+    
+}
+.button2 {
+    width: 100px;
+    padding: 10px;
+    background-color: #f01212;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px auto;
+    display: block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+/* Responsive styles for mobile devices */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        font-size: 1.1em;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1em;
+    }
+    img {
+        width: 90vw;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    .button, .button2 {
+        width: 90vw;
+        max-width: 200px;
+        font-size: 1em;
+        padding: 12px;
+        margin: 10px auto;
+        display: block;
+    }
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+}
+.message {
+    font-size: 10px;
+    color: #333;
+}
